@@ -8,5 +8,3 @@ on:
 jobs:
   call_reusable_workflow:
     uses: Kirti0311/caller_workflow/.github/workflows/action.yaml@main
-    secrets:
-      TOKEN: ${{ secrets.TOKEN }}
